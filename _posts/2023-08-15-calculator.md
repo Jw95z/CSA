@@ -18,7 +18,7 @@
         </tr>
         <tr>
             <td colspan="3">AC</td>
-            <td onclick="add('/')">/</td>
+            <td onclick="reset()">/</td>
         </tr>
         <tr>
             <td onclick="add(7)">7</td>
