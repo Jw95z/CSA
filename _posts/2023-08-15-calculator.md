@@ -2,22 +2,7 @@
 <html>
 <head>
     <title>Calculator</title>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-        td {
-            padding: 5px 10px;
-            text-align: center;
-        }
-        input {
-            text-align: right;
-            border: none;
-        }
-        input:focus {
-            outline: none;
-        }
-    </style>
+    
 </head>
 <body>
     <table border="1">
