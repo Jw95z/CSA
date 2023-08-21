@@ -1,10 +1,4 @@
----
-toc: true
-comments: true
-layout: home
-
----
-<html>
+I"Œ<html>
 <head>
     <title>Calculator</title>
     
@@ -12,18 +6,18 @@ layout: home
 <body>
     <table style="width:100%" border="1">
         <tr>
-            <td style="width:100%" colspan="4">
-                <input type="text" id="a">
+            <td colspan="4">
+                <input type="text" id="a" />
             </td>
         </tr>
         <tr>
-            <td style="width:100%" colspan="4">
-                <input type="text" id="b">
+            <td colspan="4">
+                <input type="text" id="b" />
             </td>
         </tr>
         <tr>
-            <td style="width:75%" colspan="3" onclick = "reset()">AC</td>
-            <td style="width:25%" onclick="add('/')">/</td>
+            <td colspan="3" onclick="reset()">AC</td>
+            <td onclick="add('/')">/</td>
         </tr>
         <tr style="width:100%">
             <td style="width:25%" onclick="add(7)">7</td>
@@ -66,3 +60,4 @@ layout: home
     </script>
 </body>
 </html>
+:ET
