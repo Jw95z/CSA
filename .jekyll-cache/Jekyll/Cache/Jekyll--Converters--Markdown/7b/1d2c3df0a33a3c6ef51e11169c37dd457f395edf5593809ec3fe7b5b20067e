@@ -1,0 +1,123 @@
+I"U<h2 id="hacks">Hacks</h2>
+<blockquote>
+  <p>Complete the procedure below accurately.  These are absolutely required and must be 100% accurate for your success.</p>
+</blockquote>
+
+<h3 id="github-account">GitHub Account</h3>
+<ul>
+  <li>Follow instruction <a href="https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account">https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account</a>  Use your own personal/permanent email… NOT SCHOOL!!! GitHub account belongs to you.</li>
+</ul>
+
+<h3 id="macos-1st-time-developer">MacOS 1st Time Developer</h3>
+<blockquote>
+  <p>VSCode install</p>
+  <ul>
+    <li>Install <a href="https://code.visualstudio.com/docs/setup/mac">VSCode</a></li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Anaconda install</p>
+  <ul>
+    <li>Download for MacOS: <a href="https://www.anaconda.com/products/distribution">Anaconda</a></li>
+    <li>Run Install: Answer yes to questions</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Homebrew install</p>
+  <ul>
+    <li>Copy and Paste to Install from Terminal <a href="https://brew.sh">Homebrew</a>
+      <ul>
+        <li>Copy <code class="language-plaintext highlighter-rouge">bash ... curl ...</code>  command using copy box on website</li>
+        <li>Launch <code class="language-plaintext highlighter-rouge">terminal</code> from search bar</li>
+        <li>Paste <code class="language-plaintext highlighter-rouge">bash ... curl ...</code> command into Terminal …</li>
+        <li>Make sure command starts, this should provide feedback/output in terminal and could take a long time, like 10-min, there could be a  prompt in the middle, at about 5-minutes.  Follow any on screen instructions provided in terminal output to finish.</li>
+      </ul>
+    </li>
+    <li>Homebrew installs a tool called “brew” which helps add and manage developer packages on MacOS.</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>At this point, the next task is to prepare tools.  <mark>You must start a new Terminal</mark>.  Now the Terminal prompt should be <mark>prefixed with (base)</mark>.  If not, you need to go back to Anaconda install.</p>
+  <ul>
+    <li>Open new Terminal, your prompt should look like this…
+      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">(</span>base<span class="o">)</span> iMac:~ jmort1021<span class="err">$</span>
+</code></pre></div>      </div>
+    </li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Key Packages needed on MacOS</p>
+  <ul>
+    <li><mark>Close and Start a new terminal</mark>, run each command in Terminal
+      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew list <span class="c"># list packages</span>
+<span class="nv">$ </span>brew update <span class="c"># update package list</span>
+<span class="nv">$ </span>brew upgrade <span class="c"># upgrade packages</span>
+<span class="nv">$ </span>brew <span class="nb">install </span>git  <span class="c"># install latest git</span>
+<span class="nv">$ </span>brew <span class="nb">install </span>python <span class="c"># install python3 for development</span>
+<span class="nv">$ </span>python <span class="nt">--version</span> <span class="c"># version of python3 installed</span>
+</code></pre></div>      </div>
+      <h3 id="windows-1st-time-developer">Windows 1st Time Developer</h3>
+      <p>VSCode install using WSL. Windows users have option to have best of Windows and Linux while developing within VSCode.</p>
+    </li>
+    <li>Install <a href="/CSA/techtalk/vscode-wsl">VSCode using WSL</a>.</li>
+    <li>Required review, become familiar with <a href="https://code.visualstudio.com/docs/remote/wsl-tutorial">Windows WSL development</a></li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Anaconda install on WSL.</p>
+  <ul>
+    <li>Try the exact commands in WSL Command / Powershell.</li>
+    <li>Only if there is a wget error… To find the latest Linux-x86 distribution hover over <code class="language-plaintext highlighter-rouge">64-Bit (x86) Installer</code> of this page: https://www.anaconda.com/download#downloads.  Hover over  wget and Anaconda3 commands based on new link.
+      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS C:<span class="se">\U</span>sers<span class="se">\U</span>serName&gt; wsl  <span class="c"># Windows prompt to WSL command</span>
+<span class="nv">$ </span><span class="nb">cd</span> /tmp
+<span class="nv">$ </span>wget https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
+<span class="nv">$ </span><span class="nb">chmod</span> +x Anaconda3-2023.03-1-Linux-x86_64.sh
+<span class="c"># Answer yes to all the prompts</span>
+<span class="nv">$ </span>./Anaconda3-2023.03-1-Linux-x86_64.sh
+</code></pre></div>      </div>
+    </li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>At this point, the next task is to prepare for Packages, Jupyter Notebooks, and Kernels.  <mark>You must start a new WSL Command / Powershell</mark>.  Now the WSL prompt should be <mark>prefixed with (base)</mark> from Anaconda install.  If not, you need to go back to Anaconda install.</p>
+  <ul>
+    <li>Open Command / Powershell.  If you are not looking like this you need to back up.
+      <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS C:<span class="se">\U</span>sers<span class="se">\S</span>hayM&gt; wsl  <span class="c"># Windows prompt</span>
+<span class="o">(</span>base<span class="o">)</span> shay@MSI:/mnt/c/Users/ShayM<span class="nv">$ </span><span class="nb">cd</span> ~ <span class="c"># WSL prompt</span>
+<span class="o">(</span>base<span class="o">)</span> shay@MSI:~<span class="nv">$ </span><span class="c"># WSL home, best place to install files</span>
+</code></pre></div>      </div>
+    </li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>Key Packages needing update on WSL Ubuntu</p>
+  <ul>
+    <li>In a WSL Command / Powershell install Python3
+```bash
+$ sudo apt list # list packages
+$ sudo apt update # update package list
+$ sudo apt upgrade # upgrade packages
+$ sudo apt install python3 python3-pip # install python3 and pip3 for development
+$ python –version  # version of python3 should be shown</li>
+  </ul>
+</blockquote>
+
+<h3 id="jupyter-install-and-kernels-macos-and-wsl">Jupyter Install and Kernels (MacOs and WSL)</h3>
+
+<blockquote>
+  <p>Install Jupyter and check python kernel</p>
+  <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">(</span>base<span class="o">)</span> <span class="nb">id</span>:~<span class="nv">$ </span>conda <span class="nt">--version</span> 
+<span class="o">(</span>base<span class="o">)</span> <span class="nb">id</span>:~<span class="nv">$ </span>conda <span class="nb">install </span>jupyter <span class="c"># install jupyter</span>
+<span class="o">(</span>base<span class="o">)</span> <span class="nb">id</span>:~<span class="nv">$ </span>jupyter kernelspec list <span class="c"># list installed kernels</span>
+Available kernels:
+  python3    /home/shay/.local/share/jupyter/kernels/python3
+</code></pre></div>  </div>
+</blockquote>
+:ET
