@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
     <title>Calculator</title>
@@ -21,22 +21,22 @@
             <td onclick="add('/')">/</td>
         </tr>
         <tr>
-            <td onclick="add(7)">7</td>
-            <td onclick="add(8)">8</td>
-            <td onclick="add(9)">9</td>
-            <td onclick="add('*')">*</td>
+            <td width="25%" onclick="add(7)">7</td>
+            <td width="25%" onclick="add(8)">8</td>
+            <td width="25%" onclick="add(9)">9</td>
+            <td width="25%" onclick="add('*')">*</td>
         </tr>
         <tr>
-            <td onclick="add(4)">4</td>
-            <td onclick="add(5)">5</td>
-            <td onclick="add(6)">6</td>
-            <td onclick="add('-')">-</td>
+            <td width="25%" onclick="add(4)">4</td>
+            <td width="25%" onclick="add(5)">5</td>
+            <td width="25%" onclick="add(6)">6</td>
+            <td width="25%" onclick="add('-')">-</td>
         </tr>
         <tr>
-            <td onclick="add(1)">1</td>
-            <td onclick="add(2)">2</td>
-            <td onclick="add(3)">3</td>
-            <td onclick="add('+')">+</td>
+            <td width="25%" onclick="add(1)">1</td>
+            <td width="25%" onclick="add(2)">2</td>
+            <td width="25%" onclick="add(3)">3</td>
+            <td width="25%" onclick="add('+')">+</td>
         </tr>
         <tr>
             <td colspan="2" onclick="add(0)">0</td>
