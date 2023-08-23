@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: home
-
+categories: [Week1]
 ---
 <html>
 <head>
