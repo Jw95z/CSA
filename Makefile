@@ -68,7 +68,7 @@ convert: $(MARKDOWN_FILES)
 # Convert .md file, if .ipynb file is newer
 $(DESTINATION_DIRECTORY)/%_IPYNB_2_.md: _notebooks/%.ipynb
 	@echo "Converting source $< to destination $@"
-	@python -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "$<"
+	@python3 -c 'import sys; from scripts.convert_notebooks import convert_single_notebook; convert_single_notebook(sys.argv[1])' "$<"
 
 # Clean up project derived files, to avoid run issues stop is dependency
 clean: stop
@@ -78,12 +78,12 @@ clean: stop
 
 
 # Stop the server and kill processes
-# stop:
-# 	@echo "Stopping server..."
-# 	@# kills process running on port $(PORT)
-# 	@@lsof -ti :$(PORT) | xargs kill >/dev/null 2>&1 || true
-# 	@echo "Stopping logging process..."
-# 	@# kills previously running logging processes
-# 	@@ps aux | awk -v log_file=$(LOG_FILE) '$$0 ~ "tail -f " log_file { print $$2 }' | xargs kill >/dev/null 2>&1 || true
-# 	@# removes log
-# 	@rm -f $(LOG_FILE)
+stop:
+	@echo "Stopping server..."
+	@# kills process running on port $(PORT)
+	@@lsof -ti :$(PORT) | xargs kill >/dev/null 2>&1 || true
+	@echo "Stopping logging process..."
+	@# kills previously running logging processes
+	@@ps aux | awk -v log_file=$(LOG_FILE) '$$0 ~ "tail -f " log_file { print $$2 }' | xargs kill >/dev/null 2>&1 || true
+	@# removes log
+	@rm -f $(LOG_FILE)
