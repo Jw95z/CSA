@@ -10,6 +10,23 @@ categories: [Week1]
     
 </head>
 <body>
+<style>
+
+td {
+    width: 25%;
+    background-color: blue;
+}
+tr {
+    background-color: blue;
+}
+input {
+    background-color: blue;
+}
+table {
+    background-color: blue;
+}
+
+</style>
     <table style="width:100%" border="1">
         <tr>
             <td style="width:100%" colspan="4">

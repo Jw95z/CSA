@@ -1,0 +1,26 @@
+I" <h2 id="tool-image">Tool Image</h2>
+<p><img src="https://f1nnc.github.io/stud//tool.png" alt="" /></p>
+<h2 id="why-i-love-my-tools">Why I love my tools</h2>
+<ul>
+  <li>Linux
+    <ul>
+      <li>It creates the envoriment in which I can code</li>
+    </ul>
+  </li>
+  <li>Slack
+    <ul>
+      <li>Gives communication between my group members</li>
+    </ul>
+  </li>
+  <li>Jupyter
+    <ul>
+      <li>Easy way to show my code and understand code</li>
+    </ul>
+  </li>
+  <li>Markdown
+    <ul>
+      <li>Simple way to blog</li>
+    </ul>
+  </li>
+</ul>
+:ET
