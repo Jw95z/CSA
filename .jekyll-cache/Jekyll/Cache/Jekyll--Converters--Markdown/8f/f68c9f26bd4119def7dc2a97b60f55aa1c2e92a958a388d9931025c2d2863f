@@ -1,0 +1,27 @@
+I"=<html>
+<head>
+    <title>Calculator</title>
+    
+</head>
+<body>
+<style>
+body {
+    display: grid;
+}
+td {
+    width: 25%;
+    background-color: blue;
+}
+tr {
+    background-color: blue;
+}
+input {
+    width: 200;
+    background-color: gold;
+    color: red;
+}
+table {
+    background-color: blue;
+}
+</style></body></html>
+:ET

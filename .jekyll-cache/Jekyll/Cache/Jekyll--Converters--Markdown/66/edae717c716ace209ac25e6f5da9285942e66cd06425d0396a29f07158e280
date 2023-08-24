@@ -1,11 +1,14 @@
-I"‹<html>
+I"¿<html>
 <head>
     <title>Calculator</title>
     
 </head>
 <body>
 <style>
-
+body {
+    display: grid;
+    place-items: center;
+}
 td {
     width: 25%;
     background-color: blue;

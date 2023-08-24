@@ -1,10 +1,4 @@
----
-toc: true
-comments: true
-layout: home
-categories: [Week1]
----
-<html>
+I"É<html>
 <head>
     <title>Calculator</title>
     
@@ -22,7 +16,7 @@ tr {
     background-color: blue;
 }
 input {
-    width: 600px;
+    width: 1000px;
     background-color: gold;
     color: red;
 }
@@ -34,16 +28,16 @@ table {
     <table style="width:100%" border="1">
         <tr>
             <td style="width:100%" colspan="4">
-                <input type="text" id="a">
+                <input type="text" id="a" />
             </td>
         </tr>
         <tr>
             <td style="width:100%" colspan="4">
-                <input type="text" id="b">
+                <input type="text" id="b" />
             </td>
         </tr>
         <tr>
-            <td style="width:75%" colspan="3" onclick = "reset()">AC</td>
+            <td style="width:75%" colspan="3" onclick="reset()">AC</td>
             <td style="width:25%" onclick="add('/')">/</td>
         </tr>
         <tr style="width:100%">
@@ -87,3 +81,4 @@ table {
     </script>
 </body>
 </html>
+:ET
