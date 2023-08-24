@@ -15,11 +15,15 @@ body {
     display: grid;
 }
 td {
+    display: table-cell;
+    margin: 10px;
     width: 25%;
     background-color: blue;
+    border-radius: 30px;
 }
 tr {
     background-color: blue;
+    border-radius: 30%;
 }
 input {
     width: 600px;
@@ -27,7 +31,9 @@ input {
     color: red;
 }
 table {
+    grid: 0;
     background-color: blue;
+    border-radius: 30px;
 }
 
 </style>
