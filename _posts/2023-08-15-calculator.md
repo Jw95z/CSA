@@ -15,48 +15,51 @@ body {
     display: grid;
 }
 td {
-    display: table-cell;
-    margin: 10px;
-    width: 25%;
-    background-color: blue;
+    border: 0px solid #ffebb5; 
+    background-color: #ffebb5; 
     border-radius: 30px;
+    box-shadow: inset 0 0 8px #deb13a;
+    width: 40px; height: 40px;
+    text-align: center;
+    color: black;
+    font-size: 40px
 }
 tr {
     background-color: blue;
     border-radius: 30%;
 }
 input {
+    font-size: 60px;
     width: 600px;
+    height: 60px;
     background-color: gold;
     color: red;
 }
-table {
-    grid: 0;
-    background-color: blue;
-    border-radius: 30px;
-}
+
 
 </style>
-    <table style="width:100%" border="1">
+    <table style="width:100%" >
         <tr>
-            <td style="width:100%" colspan="4">
+            <td border-radius= "30px"  colspan="4">
                 <input type="text" id="a">
             </td>
         </tr>
         <tr>
-            <td style="width:100%" colspan="4">
+            <td border-radius= "30px" colspan="4">
                 <input type="text" id="b">
             </td>
         </tr>
+    </table>
+    <table style="width:100%">
         <tr>
-            <td style="width:75%" colspan="3" onclick = "reset()">AC</td>
-            <td style="width:25%" onclick="add('/')">/</td>
+            <td border-radius= "30px" style="width:75%" colspan="3" onclick = "reset()">AC</td>
+            <td border-radius= "30px" style="width:25%" onclick="add('/')">/</td>
         </tr>
         <tr style="width:100%">
-            <td style="width:25%" onclick="add(7)">7</td>
-            <td style="width:25%" onclick="add(8)">8</td>
-            <td style="width:25%" onclick="add(9)">9</td>
-            <td style="width:25%" onclick="add('*')">*</td>
+            <td border-radius= "30px" style="width:25%" onclick="add(7)">7</td>
+            <td border-radius= "30px" style="width:25%" onclick="add(8)">8</td>
+            <td border-radius= "30px" style="width:25%" onclick="add(9)">9</td>
+            <td border-radius= "30px" style="width:25%" onclick="add('*')">*</td>
         </tr>
         <tr>
             <td width="25%" onclick="add(4)">4</td>
