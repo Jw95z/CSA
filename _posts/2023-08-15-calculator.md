@@ -35,7 +35,9 @@ input {
     background-color: gold;
     color: red;
 }
-
+table {
+    border: 0px;
+}
 
 </style>
     <table style="width:100%" >
