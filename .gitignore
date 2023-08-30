@@ -1,6 +1,9 @@
 _site
 scripts/__pycache__/convert_notebooks.cpython-311.pyc
 .jekyll-cache/Jekyll/Cache
+.jekyll-cache/Jekyll/Cache/Jekyll--Cache/b7
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown
+node_modules
 _posts/*_IPYNB_2_.md
 nohup.out
 Gemfile.lock
