@@ -89,7 +89,7 @@ layout: home
         var elem = document.createElement("img");
         elem.src = `img/hertaa${random}.webp`;
         elem.style.position = "absolute";
-        elem.style.right = "-51px";
+        elem.style.right = "-510px";
         elem.style.top = counter_button.getClientRects()[0].bottom + scrollY - 460 + "px"
         elem.style.zIndex = "-1";
         document.body.appendChild(elem);
