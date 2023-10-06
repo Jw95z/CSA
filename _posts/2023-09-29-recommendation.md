@@ -10,5 +10,5 @@ layout: home
 - I also work for the chess game by using Javascript canvas. First I defined the tile as x and y. Therefore, when users click the tile, x = 0 to 80 will be the one tile. Besides, if the user have a first click for choosing the piece, the second click will be about moving the piece. And all thing I did next is put conditions for each conditions. For example, if user clicks bishop, second click must be diagonal. Also, I made castle and pawn changing to queen when it reaches to the end. 
 - Registration page: first pull all the username from the user database by using API. Then if user register with same username, execute the code "error()" to make sure the username is exist. If there is no same username, send it to the database and store the username in localstorage so that user is login. 
 
-## Can you read this? I think help you for writing recommendation letter
+## Additional
 [Reflection_In_Last_Trimester](https://jw95z.github.io/JeongWooLee/reflect)
