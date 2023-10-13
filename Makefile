@@ -1,5 +1,5 @@
 # Configuration, override port with usage: make PORT=4300
-PORT ?= 4200
+PORT ?= 400
 REPO_NAME ?= CSA
 LOG_FILE = /tmp/jekyll$(PORT).log
 # Exceptions will stop make
