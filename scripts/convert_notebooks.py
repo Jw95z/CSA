@@ -21,19 +21,12 @@ def error_cleanup(notebook_file):
 
 def extract_front_matter(notebook_file, cell):
     front_matter = {}
-
+    
     source = cell.get('source', '')
     if source.startswith('---'):
         # Extract front matter from source
         try:
-            front_matter_content = source.split('---', 2)[1].strip()
-            
-            # Check if the front matter content is a list and convert it to a dictionary
-            if front_matter_content.startswith("[") and front_matter_content.endswith("]"):
-                # Use yaml.safe_load_all for lists
-                front_matter = list(yaml.safe_load_all(front_matter_content))[0]
-            else:
-                front_matter = yaml.safe_load(front_matter_content)
+            front_matter = yaml.safe_load(source.split('---', 2)[1])
         except yaml.YAMLError as e:
             print(f"Error parsing YAML front matter: {e}")
             error_cleanup(notebook_file)
