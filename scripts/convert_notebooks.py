@@ -26,12 +26,12 @@ def extract_front_matter(notebook_file, cell):
     if source.startswith('---'):
         # Extract front matter from source
         try:
-            # Use the second element of the split result to get the front matter content
-            front_matter_content = source.split('---', 2)[1]
+            front_matter_content = source.split('---', 2)[1].strip()
             
             # Check if the front matter content is a list and convert it to a dictionary
             if front_matter_content.startswith("[") and front_matter_content.endswith("]"):
-                front_matter = yaml.safe_load(front_matter_content)
+                # Use yaml.safe_load_all for lists
+                front_matter = list(yaml.safe_load_all(front_matter_content))[0]
             else:
                 front_matter = yaml.safe_load(front_matter_content)
         except yaml.YAMLError as e:
