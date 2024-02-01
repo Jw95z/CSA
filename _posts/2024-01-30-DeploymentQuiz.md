@@ -34,13 +34,27 @@ Proxy pass defines the backend server or application to which NGINX should forwa
 
 ![img](./images/proxypass.png)
 
-### Score
-Since I didn't show this at proper time, the score will be 0.55. 
-
-#### Letter of apology
 
 
 ## Question 2
 2. Show JWT token login process. Split browser screen, to show that it needs authentication also decode the cookie.
+
+
+![img](./images/cookie1.png)
+
+## Question 3
+3. Security Config: explain security config rules required for access in spring boot, provide request matcher that shows permit, and request matcher that shows authentication required
+
+![img](./images/security.png)
+
+
+## Question 4
+4. POJO
+
+![img](./images/pojo.png)
+## Question 5
+5. Describe the docker process for update of application. 0.9
+![img](./images/pull.png)
+
 
 
