@@ -39,7 +39,7 @@ Exploring classes outside of CompSci, I really enjoyed the photography and ceram
 ![img](./images/plan.png)
 ![img](./images/picture.png)
 <script src="https://utteranc.es/client.js"
-        repo="{{ site.github_username }}/{{ site.github_repo | default: site.baseurl | remove: "/" }}"
+        repo="jw95z/CSA"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
