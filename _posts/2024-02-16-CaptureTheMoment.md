@@ -30,6 +30,11 @@ Last night, when my team was presenting, I kept watching Adi's presentation from
 ![img](./images/img3.jpg)
 ## Blog on event
 ### Something interesting for Computer science at N@M
-I saw my last trimester group project and saw they're doing the project of quiz game.
+I saw my last trimester group project and saw they're doing the project of quiz game. The background and design were similar to the Pokemon game, which gave it a sense of familiarity. 
 ![img](./images/img4.jpg)
 ### Other things I watched at N@M
+Exploring classes outside of CompSci, I really enjoyed the photography and ceramics presentations. I especially liked a ceramics project that featured a large airplane and a light-up display that was made to look like an airport runway which I thought was awesome. Some of the images of nature in the photography class were also nice to look at, I believe that the students captured these natural settings in a cool way.
+
+![img](./images/turtle.png)
+![img](./images/plan.png)
+![img](./images/picture.png)
