@@ -1,7 +1,7 @@
 ---
 comments: true
 layout: post
-title: quiz
+title: N@M 
 description: N@M Capture the Moment
 type: hacks
 permalink: /capturethemoment
