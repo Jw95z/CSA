@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 <html>
@@ -18,8 +18,6 @@ layout: home
     <meta name="google-site-verification" content="uCMayYHqtOD8aEBNfptPFZn3qQliIFjghRvj_kPJFV8" />
 </head>
 <body>
-    <img src="img/hertaa1.webp" class="preload" />
-    <img src="img/hertaa2.webp" class="preload" />
     <div id="content">
         <h1>Kuru Kuru~</h1>
         <hr id="subtitle-seperator" />

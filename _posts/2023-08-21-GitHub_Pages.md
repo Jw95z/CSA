@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: true
-layout: post
+layout: posts
 title: GitHub Pages
 description: Build your first Blog.  This will help us communicate results.
 type: plans

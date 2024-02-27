@@ -1,6 +1,6 @@
 ---
 comments: true
-layout: post
+layout: posts
 title: N@M 
 description: N@M Capture the Moment
 type: hacks

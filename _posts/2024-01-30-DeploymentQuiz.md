@@ -1,6 +1,6 @@
 ---
 comments: true
-layout: home
+layout: default
 title: CSA Deployment quiz 
 type: hacks
 permalink: /deployQuiz

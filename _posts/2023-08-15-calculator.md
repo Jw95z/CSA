@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: true
-layout: home
+layout: default
 categories: [Week1]
 ---
 <html>
