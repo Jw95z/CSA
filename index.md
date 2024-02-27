@@ -19,7 +19,6 @@ layout: default
 </head>
 <body>
     <div id="content">
-        <h1>Kuru Kuru~</h1>
         <hr id="subtitle-seperator" />
         <div id="counter-container">
             <br />
