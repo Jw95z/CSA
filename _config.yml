@@ -1,33 +1,15 @@
 title: CompSci Blogs
 description: "August 2023 to June 2024"
-owner_name: Nighthawk Coders
-github_username: nighthawkcoders
+owner_name: James Lee
+github_username: jw95z
 baseurl: "/CSA"
-
-
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
-
-theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
-  appearance_toggle: true # if appearance can be switched by user
-  back_home_text: "home.." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description
-  show_navbar: true # show horizontal navbar
-  show_footer: true # show footer links in home page,add in _data/home.yml
-  show_copyright: true # show copyright notice in footer
-  # following keys are using to create home layout
-  show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
-  show_old_projects: true # show old projects as cards, add in _data/home.yml
-  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
-  show_reading_time: true # show number of words and reading time in the blog posts
-  show_tags: true # show tags in a blog posts
-  
-sass:
-  style: :compressed
-
+# remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/primer@v0.6.0
+# remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: pages-themes/leap-day@v0.2.0
+# remote_theme: pages-themes/time-machine@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-soopr-seo-tag
+- jekyll-remote-theme
+- jekyll-include-cache
+future: true
